@@ -119,13 +119,13 @@ textarea:not([rows]) {
 .text-accent-400 { color: var(--clr-accent-400); }
 .text-accent-100 { color: var(--clr-accent-100); }
 .text-primary-400 { color: var(--clr-primary-400); }
-.text-neutral-100 { color: var(--clr-neutral-100); }
+.text-neutral-100 { color: var(--clr-accent-100); }
 .text-neutral-900 { color: var(--clr-neutral-900); }
 
 /* Background Colors */
 .bg-accent-400 { background-color: var(--clr-accent-400); }
 .bg-accent-100 { background-color: var(--clr-accent-100); }
-.bg-primary-400 { background-color: var(--clr-primary-400); }
+.bg-primary-400 { background-color: var(--clr-accent-400); }
 .bg-neutral-100 { background-color: var(--clr-neutral-100); }
 .bg-neutral-900 { background-color: var(--clr-neutral-900); }
 
@@ -198,3 +198,7 @@ textarea:not([rows]) {
   color: #fff;
 }
 
+footer a{
+  width: 100px;
+  background-color: red;
+}
